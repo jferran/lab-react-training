@@ -1,4 +1,5 @@
 import './App.css';
+import BoxColor from './components/BoxColor';
 import Greetings from './components/Greetings';
 import IdCard from './components/IdCard';
 import Random from './components/Random';
@@ -28,6 +29,9 @@ function App() {
       <hr/>
       <Random min={1} max={6}/>
       <Random min={1} max={100}/>
+      <hr/>
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
     </div>
   );
 }

@@ -12,7 +12,7 @@ function BoxColor({ r, g, b }) {
 
     function colorToHex(color) {
         var hexadecimal = color.toString(16);
-        return hexadecimal.length == 1 ? "0" + hexadecimal : hexadecimal;
+        return hexadecimal.length === 1 ? "0" + hexadecimal : hexadecimal;
       }
       
       function convertRGBtoHex(red, green, blue) {
